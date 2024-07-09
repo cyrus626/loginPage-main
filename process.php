@@ -28,29 +28,3 @@ if(isset($_POST["login"])){
 	}
 }
 ?>
-<!Doctype html>
-<html>
-	<head>
-		<meta content="text/html; charset=UTF-8">
-		<title>Login page</title>
-		<link rel="stylesheet" href="style.css"/>
-	</head>
-	<body>
-		<div class="mainBody">
-			<h1>LOG IN</h1>
-			<form method="post">
-				<div>
-					<input type="text" placeholder="User's name" name="userName" required/>
-				</div>
-				<div>
-					<input type="password" placeholder="Password" name="password" required/>
-				</div>
-				<div>
-					<button name="login">SIGN IN</button>
-					<p><a href="signup.php" id="SignUp">SIGN UP</a></p>
-				</div>
-			</form>
-			<p></p>
-		</div>
-	</body>
-</html>
